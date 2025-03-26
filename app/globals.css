@@ -71,6 +71,11 @@
 
   body {
     @apply bg-background text-foreground;
+    scrollbar-width: thin;
+    /* Firefox */
+    scrollbar-color: #6a0dad #e8e7ee;
+    /* Firefox */
+    transition: scrollbar-color 0.3s ease;
   }
 
   button {
@@ -97,14 +102,6 @@
   ::-webkit-scrollbar-thumb:hover {
     background: #aa4ced;
   }
-
-  body {
-    scrollbar-width: thin;
-    /* Firefox */
-    scrollbar-color: #6a0dad #e8e7ee;
-    /* Firefox */
-    transition: scrollbar-color 0.3s ease;
-  }
 }
 
 @layer utilities {
@@ -112,4 +109,3 @@
     @apply font-bold text-4xl md:text-5xl text-center;
   }
 }
-
