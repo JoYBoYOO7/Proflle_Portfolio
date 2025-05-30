@@ -77,6 +77,8 @@ export const projects = [
     img: "/s1.png",
     iconLists: ["/re.ico", "/firebase.svg", "/node.svg"],
     link: "https://github.com/JoYBoYOO7/Instagram-Web-App",
+    tools: ["React", "Firebase", "Node.js", "Express"],
+    color: "#1E1E1E"
   },
   {
     id: 2,
@@ -85,6 +87,8 @@ export const projects = [
     img: "/p4.png",
     iconLists: ["/ts.svg", "/re.ico", "/tail.svg"],
     link: "https://github.com/JoYBoYOO7/Snippex",
+    tools: ["TypeScript", "React", "Tailwind CSS"],
+    color: "#13162D"
   },
   {
     id: 3,
@@ -93,8 +97,9 @@ export const projects = [
     img: "/p3.png",
     iconLists: ["/next.svg", "/ts.svg", "/firebase.svg"],
     link: "https://github.com/JoYBoYOO7/Prep_Mate_AI",
+    tools: ["Next.js", "TypeScript", "Firebase", ],
+    color: "#1A1A2E"
   },
-
   {
     id: 4,
     title: "Travel Guide",
@@ -102,8 +107,9 @@ export const projects = [
     img: "/p5.PNG",
     iconLists: ["/re.ico", "/ts.svg", "/tail.svg"],
     link: "https://github.com/JoYBoYOO7/travel-guide",
+    tools: ["React", "TypeScript", "Tailwind CSS", "Appwrite"],
+    color: "#0F172A"
   },
-
   {
     id: 5,
     title: "Astro-vS",
@@ -111,7 +117,9 @@ export const projects = [
     img: "/s6.png",
     iconLists: ["/astro.svg", "/tail.svg"],
     link: "https://github.com/JoYBoYOO7/Astro-vS",
-  },
+    tools: ["Astro", "Tailwind CSS", "TypeScript"],
+    color: "#16161F"
+  }
 ];
 
 export const companies = [
