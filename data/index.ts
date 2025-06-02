@@ -105,7 +105,7 @@ export const projects = [
     id: 4,
     title: "Travel Guide",
     des: "A dynamic travel dashboard built with React, featuring Syncfusion charts, Appwrite backend, and Gemini AI integration.",
-    img: "/p5.PNG",
+    img: "/P5.png",
     iconLists: ["/re.ico", "/ts.svg", "/tail.svg"],
     link: "https://github.com/JoYBoYOO7/travel-guide",
     tools: ["React", "TypeScript", "Tailwind CSS", "Appwrite"],
