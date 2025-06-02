@@ -8,6 +8,7 @@ import Footer from "@/components/Footer";
 import Approach from "@/components/Approach";
 import Experience from "@/components/Experience";
 import RecentProjects from "@/components/RecentProjects";
+import Skills from "@/components/Skills";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 
 const Grid = dynamic(() => import("@/components/Grid"), { ssr: false });
@@ -20,6 +21,7 @@ const Home = () => {
         <FloatingNav navItems={navItems} />
         <Grid />
         <RecentProjects />
+        <Skills />
         <Experience />
         <Approach />
         <Footer />

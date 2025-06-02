@@ -6,11 +6,17 @@ import { CanvasRevealEffect } from "./ui/CanvasRevealEffect";
 
 const Approach = () => {
   return (
-    <section className="w-full py-20">
-      <h1 className="heading">
-        My <span className="text-purple">approach</span>
-      </h1>
-      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4">
+    <section className="w-full py-12 md:py-24 lg:py-32 bg-black/20 backdrop-blur-sm relative">
+      <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/50 to-black/0 pointer-events-none" />
+      <div className="flex flex-col items-center relative z-10">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500/80 text-center max-w-[90vw] lg:max-w-[45vw]">
+          My{" "}
+          <span className="bg-gradient-to-r from-pink-500 via-red-500 to-orange-500 text-transparent bg-clip-text">
+            approach
+          </span>
+        </h1>
+      </div>
+      <div className="my-20 flex flex-col lg:flex-row items-center justify-center w-full gap-4 relative z-10">
         <Card
           title="Planning & Strategy"
           icon={<AceternityIcon order="Phase 1" />}

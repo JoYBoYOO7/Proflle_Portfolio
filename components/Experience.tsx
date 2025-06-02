@@ -7,12 +7,18 @@ import { Button } from "./ui/MovingBorders";
 
 const Experience = () => {
   return (
-    <div className="py-20 w-full">
-      <h1 className="heading">
-        My <span className="text-purple">work experience</span>
-      </h1>
+    <div className="w-full py-12 md:py-24 lg:py-32 bg-black/20 backdrop-blur-sm relative">
+      <div className="absolute inset-0 bg-gradient-to-b from-black/0 via-black/50 to-black/0 pointer-events-none" />
+      <div className="flex flex-col items-center relative z-10">
+        <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl/none bg-clip-text text-transparent bg-gradient-to-b from-white to-zinc-500/80 text-center max-w-[90vw] lg:max-w-[45vw]">
+          My{" "}
+          <span className="bg-gradient-to-r from-pink-500 via-red-500 to-orange-500 text-transparent bg-clip-text">
+            work experience
+          </span>
+        </h1>
+      </div>
 
-      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10">
+      <div className="w-full mt-12 grid lg:grid-cols-4 grid-cols-1 gap-10 relative z-10">
         {workExperience.map((card) => (
           <Button
             key={card.id}

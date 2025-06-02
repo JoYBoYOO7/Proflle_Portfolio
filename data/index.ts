@@ -2,6 +2,7 @@ export const navItems = [
   { name: "Home", link: "#" },
   { name: "About", link: "#about" },
   { name: "Projects", link: "#projects" },
+  { name: "Skills", link: "#skills" },
   { name: "Contact", link: "#contact" },
 ];
 
@@ -78,7 +79,7 @@ export const projects = [
     iconLists: ["/re.ico", "/firebase.svg", "/node.svg"],
     link: "https://github.com/JoYBoYOO7/Instagram-Web-App",
     tools: ["React", "Firebase", "Node.js", "Express"],
-    color: "#1E1E1E"
+    color: "#1E1E1E",
   },
   {
     id: 2,
@@ -88,7 +89,7 @@ export const projects = [
     iconLists: ["/ts.svg", "/re.ico", "/tail.svg"],
     link: "https://github.com/JoYBoYOO7/Snippex",
     tools: ["TypeScript", "React", "Tailwind CSS"],
-    color: "#13162D"
+    color: "#13162D",
   },
   {
     id: 3,
@@ -97,8 +98,8 @@ export const projects = [
     img: "/p3.png",
     iconLists: ["/next.svg", "/ts.svg", "/firebase.svg"],
     link: "https://github.com/JoYBoYOO7/Prep_Mate_AI",
-    tools: ["Next.js", "TypeScript", "Firebase", ],
-    color: "#1A1A2E"
+    tools: ["Next.js", "TypeScript", "Firebase"],
+    color: "#1A1A2E",
   },
   {
     id: 4,
@@ -108,7 +109,7 @@ export const projects = [
     iconLists: ["/re.ico", "/ts.svg", "/tail.svg"],
     link: "https://github.com/JoYBoYOO7/travel-guide",
     tools: ["React", "TypeScript", "Tailwind CSS", "Appwrite"],
-    color: "#0F172A"
+    color: "#0F172A",
   },
   {
     id: 5,
@@ -118,8 +119,8 @@ export const projects = [
     iconLists: ["/astro.svg", "/tail.svg"],
     link: "https://github.com/JoYBoYOO7/Astro-vS",
     tools: ["Astro", "Tailwind CSS", "TypeScript"],
-    color: "#16161F"
-  }
+    color: "#16161F",
+  },
 ];
 
 export const companies = [
